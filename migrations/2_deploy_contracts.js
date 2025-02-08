@@ -1,5 +1,8 @@
-var Token = artifacts.require("./Token.sol");
+var SimpleStorage = artifacts.require("./SimpleStorage.sol");
 
 module.exports = function (deployer) {
-    deployer.deploy(Token, "0x627306090abaB3A6e1400e9345bC60c78a8BEf57");
+    deployer.deploy(
+        SimpleStorage,
+        "0x3CE5128475c1d110e6347Ea8C4cf09Aae9eB1506"
+    );
 };
