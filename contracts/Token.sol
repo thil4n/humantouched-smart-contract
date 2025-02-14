@@ -19,7 +19,6 @@ contract Token is ERC721URIStorage, Ownable {
         string tokenURI;
     }
 
-    // Pass the `initialOwner` address to the Ownable constructor
     constructor(
         address initialOwner
     ) ERC721("Token", "HTT") Ownable(initialOwner) {
